@@ -17,6 +17,7 @@
 		582A102E29DD3E38002A7A62 /* NSOperation__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 582A102D29DD3E38002A7A62 /* NSOperation__Tests.m */; };
 		582A103829DD3E38002A7A62 /* NSOperation__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 582A103729DD3E38002A7A62 /* NSOperation__UITests.m */; };
 		582A103A29DD3E38002A7A62 /* NSOperation__UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 582A103929DD3E38002A7A62 /* NSOperation__UITestsLaunchTests.m */; };
+		582A104829DD7A25002A7A62 /* MYOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 582A104729DD7A25002A7A62 /* MYOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		582A103329DD3E38002A7A62 /* NSOperation学习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSOperation学习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		582A103729DD3E38002A7A62 /* NSOperation__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperation__UITests.m; sourceTree = "<group>"; };
 		582A103929DD3E38002A7A62 /* NSOperation__UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperation__UITestsLaunchTests.m; sourceTree = "<group>"; };
+		582A104629DD7A25002A7A62 /* MYOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYOperation.h; sourceTree = "<group>"; };
+		582A104729DD7A25002A7A62 /* MYOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				582A101529DD3E36002A7A62 /* SceneDelegate.m */,
 				582A101729DD3E36002A7A62 /* ViewController.h */,
 				582A101829DD3E36002A7A62 /* ViewController.m */,
+				582A104629DD7A25002A7A62 /* MYOperation.h */,
+				582A104729DD7A25002A7A62 /* MYOperation.m */,
 				582A101A29DD3E36002A7A62 /* Main.storyboard */,
 				582A101D29DD3E38002A7A62 /* Assets.xcassets */,
 				582A101F29DD3E38002A7A62 /* LaunchScreen.storyboard */,
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				582A104829DD7A25002A7A62 /* MYOperation.m in Sources */,
 				582A101929DD3E36002A7A62 /* ViewController.m in Sources */,
 				582A101329DD3E36002A7A62 /* AppDelegate.m in Sources */,
 				582A102429DD3E38002A7A62 /* main.m in Sources */,
